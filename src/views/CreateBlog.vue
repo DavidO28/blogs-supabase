@@ -53,7 +53,7 @@ const submitForm = async () => {
       author.value = "";
       errorMessage.value = null;
     }
-    router.push("/blogs");
+    router.push("/");
   } catch (error) {
     errorMessage.value = "An unexpected error occurred.";
   }
