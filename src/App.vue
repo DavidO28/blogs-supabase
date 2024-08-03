@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/blogs-supabase">Home</RouterLink>
       <RouterLink to="/create-blog">Create a new blog</RouterLink>
     </nav>
   </header>
